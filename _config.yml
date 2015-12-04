@@ -2,6 +2,6 @@ collections:
   logos:
     output: true
     layout: default
-  presentations
+  presentations:
     output: true
     layout: default
