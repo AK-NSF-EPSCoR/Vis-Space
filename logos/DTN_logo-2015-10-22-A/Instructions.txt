@@ -1,0 +1,88 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: DTN logo 2015-10-22-A.indd
+
+PACKAGE DATE: 10/22/15 8:33 AM
+Creation Date: 10/22/15
+Modification Date: 10/22/15
+
+CONTACT INFORMATION
+
+Company Name: UAF Rasmuson Library Graphics
+Contact: Dixon Jones
+Address: 
+310 Tanana Drive
+PO Box 756800
+Fairbanks, Alaska 99775-6800
+
+
+Phone: 907-474-6345
+Fax: 907-474-6841
+Email: djjones@alaska.edu
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+
+
+
+
+
+External Plug-ins 0
+Non Opaque Objects :None
+
+FONTS
+3 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+Fonts Packaged
+- Name: SourceSansPro-Light; Type: OpenType Type 1, Status: OK
+- Name: SourceSansPro-Regular; Type: OpenType Type 1, Status: OK
+- Name: SourceSansPro-Semibold; Type: OpenType Type 1, Status: OK
+
+
+COLORS AND INKS
+4 Process Inks; 0 Spot Inks
+
+- Name and Type: Process Cyan; Angle: 75.000; Lines/Inch: 70.000
+- Name and Type: Process Magenta; Angle: 15.000; Lines/Inch: 70.000
+- Name and Type: Process Yellow; Angle: 0.000; Lines/Inch: 70.000
+- Name and Type: Process Black; Angle: 45.000; Lines/Inch: 70.000
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 0 Links Found; 0 Modified, 0 Missing 0 Inaccessible
+Images: 0 Embedded, 0 use RGB color space
+
+PRINT SETTINGS
+PPD: HP Color LaserJet 5550, (HP color LaserJet 5550)
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: 100%, 100%
+Page Position: Upper Left
+Print Layers: Visible & Printable Layers
+Printer's Marks: None
+Bleed: 0p0, 0p0, 0p0, 0p0
+Color: Composite CMYK
+Trapping Mode: None
+Send Image Data: Optimized Subsampling
+OPI/DCS Image Replacement: No
+Page Size: Letter
+Paper Dimensions: 51p0 x 66p0
+Orientation: Portrait
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. DTN logo 2015-10-22-A.indd; type: Adobe InDesign publication; size: 1432K
+2. DTN logo 2015-10-22-A.idml; type: InDesign Markup Document; size: 108K
+3. DTN logo 2015-10-22-A.pdf; type: Adobe Acrobat Document; size: 26K
+4. SourceSansPro-Light.otf; type: Font file; size: 121K
+5. SourceSansPro-Regular.otf; type: Font file; size: 124K
+6. SourceSansPro-Semibold.otf; type: Font file; size: 124K

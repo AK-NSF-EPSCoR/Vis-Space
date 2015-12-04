@@ -1,0 +1,77 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SourceSansPro-Light
+FamilyName:Source Sans Pro
+StyleName:Light
+MenuName:Source Sans Pro Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Source Sans Pro Light
+WritingScript:Roman
+OutlineFileName:\SourceSansPro-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:124476
+FileModTime:1383833698
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro Light
+NameArray:0,Win,1,Source Sans Pro Light
+NameArray:0,Win,16,Source Sans Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SourceSansPro-Regular
+FamilyName:Source Sans Pro
+StyleName:Regular
+MenuName:Source Sans Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Source Sans Pro
+WritingScript:Roman
+OutlineFileName:\SourceSansPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:127448
+FileModTime:1383833700
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro
+NameArray:0,Win,1,Source Sans Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SourceSansPro-Semibold
+FamilyName:Source Sans Pro
+StyleName:Semibold
+MenuName:Source Sans Pro Semibold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Source Sans Pro Semibold
+WritingScript:Roman
+OutlineFileName:\SourceSansPro-Semibold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:127336
+FileModTime:1383833700
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro Semibold
+NameArray:0,Win,1,Source Sans Pro Semibold
+NameArray:0,Win,16,Source Sans Pro
+%EndFont
+
