@@ -1,3 +1,7 @@
+---
+title: Decision Theater North Logos
+layout: default
+---
 ![DTN logo](dtn_logo-rgb_h-web.png)
 
 The Decision Theater North Logos was made by Dixon Jones and is copyright University of Alaska. 
