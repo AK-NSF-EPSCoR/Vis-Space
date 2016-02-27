@@ -71,7 +71,7 @@ label {
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color:#fff;
 }
-.glyphicon {
+/*.glyphicon {
     position: relative;
     top: 0px;
     display: inline-block;
@@ -86,7 +86,7 @@ label {
     color: #fff;
     font-size: 2em;
     display: inline-block;
-}
+}*/
 .nav > li > a {
     position: relative;
     display: block;
@@ -188,14 +188,7 @@ label {
 .sb-search.sb-search-open .sb-search-submit,.no-js .sb-search .sb-search-submit {
 	z-index: 90;
 }
-/*--*/
-.banner-info {
-    padding: 3em 2em;
-    width: 50%;
-    margin:10em 0 0;
-    text-align: left;
-    background-color: #204e7f;
-}
+
 /*-- header --*/
 .banner {
     background: url(../images/1.jpg) no-repeat;
@@ -204,28 +197,7 @@ label {
     min-height: 720px;
 	position:relative;
 }
-.banner-info h2 {
-    font-size: 2.5em;
-    color: #ffc300;
-    font-weight: 400;
-    font-family: 'Antic', sans-serif;
-    margin: 0 0 0.2em;
 
-}
-.banner-info h4 {
-    font-size: 2em;
-    color: #ffc300;
-    font-weight: 400;
-    font-family: 'Antic', sans-serif;
-    margin: 0 0 1em;
-
-}
-.banner-info p {
-    font-size: 1em;
-    line-height: 1.8em;
-    color: #fff;
-    margin: 0 0 1em;
-}
 /* Shutter In Horizontal */
 .hvr-shutter-in-horizontal {
     display: inline-block;
@@ -897,18 +869,7 @@ i.te:hover {
 .sb-search {
     right: 4em;
 }
-.banner-info {
-    margin: 5em 0 0;
-}
-.banner {
-    min-height: 630px;
-}
-.banner-info h2 {
-    font-size: 2em;
-}
-.banner-info h4 {
-    font-size: 1.5em;
-}
+
 .about {
     padding: 3em 0;
 }
@@ -951,10 +912,7 @@ i.te:hover {
 .sb-search {
     right: 2em;
 }
-.banner-info {
-    padding: 2em 2em;
-    width: 60%;
-}
+
 .logo h1 a {
     margin: 1em auto 0;
 }
@@ -1059,19 +1017,6 @@ i.te:hover {
 }
 /*-- responsive-design --*/
 @media (max-width: 640px) {
-.banner-info h2 {
-    font-size: 1.7em;
-}
-.banner-info {
-    padding: 2em 2em;
-    width: 67%;
-}
-.banner-info h4 {
-    font-size: 1.3em;
-}
-.banner-info {
-    margin: 4em 0 0;
-}
 .banner {
     min-height: 500px;
 }
@@ -1096,9 +1041,6 @@ i.te:hover {
 .logo h1 a {
     width: 48%;
 }
-.banner-info {
-    margin: 3em 0 0;
-}
 .news-left {
     float: left;
     width: 100%;
@@ -1114,15 +1056,7 @@ i.te:hover {
     font-size: 1.2em;
 	width:41%;
 }
-.banner-info h2 {
-    font-size: 1.5em;
-}
-.banner-info {
-    width: 78%;
-}
-.banner-info p {
-    font-size: 0.875em;
-}
+
 .banner {
     min-height: 450px;
 }
@@ -1202,21 +1136,7 @@ i.te:hover {
     width: 60%;
     margin: 0.5em auto 0;
 }
-.banner-info {
-    margin: 3em 0 0;
-	width:85%;
-	padding:1em;
-}
-.banner-info h2 {
-    font-size: 1.3em;
-}
-.banner-info h4 {
-    font-size: 1.1em;
-	margin: 0 0 0.5em;
-}
-.banner-info p {
-    margin: 0 0 0.5em;
-}
+
 .banner {
     min-height: 390px;
 }
@@ -1256,9 +1176,9 @@ i.te:hover {
     margin: 0 0 2em;
 	text-align:center;
 }
-.glyphicon {
+/*.glyphicon {
     line-height: 1.3;
-}
+}*/
 .news h3 {
     font-size: 1.5em;
 }
