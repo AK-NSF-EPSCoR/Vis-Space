@@ -279,25 +279,25 @@ label {
 	background: #fff;
 	color:#000;
 }
-/*-- services --*/
-.services h3 {
+/*-- projects --*/
+.projects h3 {
     font-size: 1.7em;
     color: #ffc300;
     font-weight: 700;
     font-family: 'Antic', sans-serif;
     margin: 0 0 em;
 }
-.services p {
+.projects p {
     font-size: 1em;
     line-height: 1.8em;
     color: #5BA4F1;
     margin: 1em 0;
 }
-.services {
+.projects {
     padding: 5em 0;
     background-color:#204e7f;
 }
-/*-- services --*/
+/*-- projects --*/
 /*-- about --*/
 .about h3 {
     font-size: 2.5em;
@@ -723,7 +723,7 @@ i.g-1{
     padding: 5em 0 1em;
     background-color: #204e7f;
 }
-.about h6, .services h6, .footer h6, .news h6, .ourteam h6, .gallery h6 {
+.about h6, .projects h6, .footer h6, .news h6, .ourteam h6, .gallery h6 {
     font-size: 3em;
     color: #ffc300;
     font-weight: 700;
@@ -912,7 +912,7 @@ i.te:hover {
 .about {
     padding: 3em 0;
 }
-.services {
+.projects {
     padding: 3em 0;
 }
 .news {
@@ -961,7 +961,7 @@ i.te:hover {
 .banner {
     min-height: 554px;
 }
-.about h6, .services h6, .footer h6, .news h6, .ourteam h6, .gallery h6 {
+.about h6, .projects h6, .footer h6, .news h6, .ourteam h6, .gallery h6 {
     font-size: 2.5em;
 	margin:0 0 1em;
 }
@@ -977,14 +977,14 @@ i.te:hover {
 .about-right {
     margin: 2em 0;
 }
-.services {
+.projects {
     padding: 1em 0 3em;
 }
-.services-left {
+.projects-left {
     float: left;
     width: 25%;
 }
-.services h3 {
+.projects h3 {
     font-size: 1.5em;
 }
 .news h3 {
@@ -1075,7 +1075,7 @@ i.te:hover {
 .banner {
     min-height: 500px;
 }
-.services h3 {
+.projects h3 {
     font-size: 1.2em;
 }
 .ch-grid li {
@@ -1139,11 +1139,11 @@ i.te:hover {
     float: left;
     width: 100%;
 }
-.services-left {
+.projects-left {
     float: left;
     width: 50%;
 }
-.services p {
+.projects p {
     font-size: 0.875em;
 }
 .abt-rgt {
@@ -1220,7 +1220,7 @@ i.te:hover {
 .banner {
     min-height: 390px;
 }
-.about h6, .services h6, .footer h6, .news h6, .ourteam h6, .gallery h6 {
+.about h6, .projects h6, .footer h6, .news h6, .ourteam h6, .gallery h6 {
     font-size: 2em;
     margin: 0 0 0.5em;
 }
@@ -1246,10 +1246,10 @@ i.te:hover {
 .about {
     padding: 1em 0 0em;
 }
-.services {
+.projects {
     padding: 0em 0 1em;
 }
-.services-left {
+.projects-left {
     float: left;
     width: 100%;
     padding: 0;
