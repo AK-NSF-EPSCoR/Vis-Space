@@ -101,7 +101,7 @@ label {
     font-family: 'Antic', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    margin: 1.5em auto 0;
+    margin: 10px auto 0;
 }
 .search-box {
   float: right;
