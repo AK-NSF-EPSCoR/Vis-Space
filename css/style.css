@@ -27,8 +27,8 @@ input[type="button"],input[type="submit"],li.parallelogram{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;			   
-}	
+	margin:0;
+}
 p{
 	margin:0;
 }
@@ -101,7 +101,6 @@ label {
     font-family: 'Antic', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    width: 22%;
     margin: 1.5em auto 0;
 }
 .search-box {
@@ -211,7 +210,7 @@ label {
     font-weight: 400;
     font-family: 'Antic', sans-serif;
     margin: 0 0 0.2em;
-	
+
 }
 .banner-info h4 {
     font-size: 2em;
@@ -219,7 +218,7 @@ label {
     font-weight: 400;
     font-family: 'Antic', sans-serif;
     margin: 0 0 1em;
-	
+
 }
 .banner-info p {
     font-size: 1em;
@@ -539,7 +538,7 @@ figure.effect-apollo:hover p {
 	width: 100%;
 	height: 100%;
 	position: relative;
-	box-shadow: 
+	box-shadow:
 			inset 0 0 0 110px rgba(255, 195, 0, 0),
 		inset 0 0 0 16px rgba(255, 195, 0, 0.23), 0 1px 2px rgba(255, 195, 0, 0.23);
 	-webkit-transition: all 0.4s ease-in-out;
@@ -548,16 +547,16 @@ figure.effect-apollo:hover p {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
-.ch-img-1 { 
+.ch-img-1 {
 	background-image: url(../images/pic1.jpg);
 }
-.ch-img-2 { 
+.ch-img-2 {
 	background-image: url(../images/pic2.jpg);
 }
-.ch-img-3 { 
+.ch-img-3 {
 	background-image: url(../images/pic3.jpg);
 }
-.ch-img-4 { 
+.ch-img-4 {
 	background-image: url(../images/pic4.jpg);
 }
 .ch-info {
@@ -565,17 +564,17 @@ figure.effect-apollo:hover p {
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
-	opacity: 0;	
+	opacity: 0;
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
 	-ms-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;	
+	transition: all 0.4s ease-in-out;
 	-webkit-transform: scale(0);
 	-moz-transform: scale(0);
 	-o-transform: scale(0);
 	-ms-transform: scale(0);
-	transform: scale(0);	
+	transform: scale(0);
 	-webkit-backface-visibility: hidden; /*for a smooth font */
 }
 .ch-info h5 {
@@ -587,8 +586,8 @@ figure.effect-apollo:hover p {
 	margin: 0 30px;
 	padding: 65px 0 0 0;
 	height: 110px;
-	text-shadow: 
-		0 0 1px #fff, 
+	text-shadow:
+		0 0 1px #fff,
 		0 1px 2px rgba(0,0,0,0.3);
 }
 .ch-info p {
@@ -615,7 +614,7 @@ figure.effect-apollo:hover p {
 	color: rgba(255,242,34, 0.8);
 }
 .ch-item:hover {
-	box-shadow: 
+	box-shadow:
 		inset 0 0 0 110px rgba(255, 195, 0, 0.59),
 		inset 0 0 0 16px #ffc300, 0 1px 2px #ffc300;
 }
@@ -625,7 +624,7 @@ figure.effect-apollo:hover p {
 	-moz-transform: scale(1);
 	-o-transform: scale(1);
 	-ms-transform: scale(1);
-	transform: scale(1);	
+	transform: scale(1);
 }
 .ourteam h3 {
     font-size: 2.5em;
@@ -744,7 +743,7 @@ i.g-1{
 .footer p a {
     color: #ffc300;
     text-decoration: none;
-} 
+}
 .copyright {
     padding: 2em 0;
     text-align: center;
