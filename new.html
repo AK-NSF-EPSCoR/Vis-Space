@@ -10,53 +10,7 @@ title: Decision Theater North
 					<h1><a href="index.html"><img src="/images/dtn_logo-rgb_h-web.png" alt="Decision Theater North" class="logo-img"></a></h1>
 			</div>
 
-				<section class="slider">
-					<div class="flexslider">
-						<ul class="slides">
-							<li>
-								<div class="banner-info">
-									<h2>HEART ATTACK</h2>
-									<h4>Symptoms?</h4>
-									<p>Nasagni dolorequaone voluptase keroas emsequi nesas ciuneque pobasera .</p>
-									<a class="hvr-shutter-in-horizontal" href="#">Read More</a>
-								</div>
-							</li>
-							<li>
-								<div class="banner-info">
-									<h2>10 SECOND SCAN </h2>
-									<h4>Can Save Your Life!</h4>
-									<p>Nasagni dolorequaone voluptase keroas emsequi nesas ciuneque pobasera .</p>
-									<a class="hvr-shutter-in-horizontal" href="#">Read More</a>
-								</div>
-							</li>
-							<li>
-								<div class="banner-info">
-									<h2>CURRENT DIAGNOSIS</h2>
-									<h4>and Treatment</h4>
-									<p>Nasagni dolorequaone voluptase keroas emsequi nesas ciuneque pobasera .</p>
-									<a class="hvr-shutter-in-horizontal" href="#">Read More</a>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</section>
-
-							<!-- FlexSlider -->
-									  <script defer="" src="js/jquery.flexslider.js"></script>
-									  <script type="text/javascript">
-										$(function(){
-
-										});
-										$(window).load(function(){
-										  $('.flexslider').flexslider({
-											animation: "slide",
-											start: function(slider){
-											  $('body').removeClass('loading');
-											}
-										  });
-										});
-									  </script>
-								<!-- FlexSlider -->
+			{% include slider.html %}
 
 		</div>
 		 <svg id="clouds" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
