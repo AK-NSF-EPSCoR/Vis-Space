@@ -348,11 +348,11 @@ label {
 .abt-btm {
     padding: 2em 0;
 }
-.about li,.insurance li {
+.about li,.news li {
     display: block;
     line-height: 2em;
 }
-.about li a span,.insurance li a span {
+.about li a span,.news li a span {
     width: 22px;
     height: 14px;
     display: inline-block;
@@ -360,42 +360,42 @@ label {
     margin-right: 0.5em;
     vertical-align: middle;
 }
-.about li a,.insurance li a {
+.about li a,.news li a {
     color: #204e7f;
     font-size: 1em;
     text-decoration: none;
 	vertical-align: middle;
 }
-.about li a:hover,.insurance li a:hover{
+.about li a:hover,.news li a:hover{
     color: #ffc300;
 }
 /*-- about --*/
 /*-- about --*/
-.insurance{
+.news{
 	padding:5em 0;
 }
-.insurance h3 {
+.news h3 {
     font-size: 2.5em;
     color: #ffc300;
     font-weight: 700;
     font-family: 'Antic', sans-serif;
     margin: 0 0 1em;
 }
-.insurance h5 {
+.news h5 {
     font-size: 1.5em;
     color: #ffc300;
     font-weight: 700;
     font-family: 'Antic', sans-serif;
     margin:1em  0;
 }
-.insurance h4 {
+.news h4 {
     font-size: 1.5em;
     color: #204e7f;
     font-weight: 700;
     font-family: 'Antic', sans-serif;
     margin: 1em 0 0;
 }
-.insurance p {
+.news p {
     font-size: 1em;
     line-height: 1.8em;
     color: #000;
@@ -404,7 +404,7 @@ label {
 .insu {
     margin: 2em 0;
 }
-/*-- insurance --*/
+/*-- news --*/
 /*--gallery-starts--*/
 .gallery {
     padding: 5em 0;
@@ -723,7 +723,7 @@ i.g-1{
     padding: 5em 0 1em;
     background-color: #204e7f;
 }
-.about h6, .services h6, .footer h6, .insurance h6, .ourteam h6, .gallery h6 {
+.about h6, .services h6, .footer h6, .news h6, .ourteam h6, .gallery h6 {
     font-size: 3em;
     color: #ffc300;
     font-weight: 700;
@@ -915,7 +915,7 @@ i.te:hover {
 .services {
     padding: 3em 0;
 }
-.insurance {
+.news {
     padding: 3em 0;
 }
 .gallery {
@@ -961,7 +961,7 @@ i.te:hover {
 .banner {
     min-height: 554px;
 }
-.about h6, .services h6, .footer h6, .insurance h6, .ourteam h6, .gallery h6 {
+.about h6, .services h6, .footer h6, .news h6, .ourteam h6, .gallery h6 {
     font-size: 2.5em;
 	margin:0 0 1em;
 }
@@ -987,21 +987,21 @@ i.te:hover {
 .services h3 {
     font-size: 1.5em;
 }
-.insurance h3 {
+.news h3 {
     font-size: 2em;
 }
-.insurance-right {
+.news-right {
     float: left;
     width: 40%;
 }
-.insurance-left {
+.news-left {
     float: left;
     width: 60%;
 }
-.insurance h4 {
+.news h4 {
     font-size: 1.4em;
 }
-.insurance {
+.news {
     padding: 2em 0;
 }
 .gallery {
@@ -1099,11 +1099,11 @@ i.te:hover {
 .banner-info {
     margin: 3em 0 0;
 }
-.insurance-left {
+.news-left {
     float: left;
     width: 100%;
 }
-.insurance-right {
+.news-right {
     float: left;
     width: 100%;
 }
@@ -1132,7 +1132,7 @@ i.te:hover {
 .about p {
     font-size: 0.875em;
 }
-.about li a, .insurance li a {
+.about li a, .news li a {
     font-size: 0.875em;
 }
 .abt-lft {
@@ -1152,14 +1152,14 @@ i.te:hover {
     padding: 0;
     margin: 1em 0 0;
 }
-.insurance-left {
+.news-left {
     float: left;
     width: 100%;
 }
-.insurance p {
+.news p {
     font-size: 0.875em;
 }
-.insurance-right {
+.news-right {
     float: left;
     width: 100%;
 }
@@ -1220,7 +1220,7 @@ i.te:hover {
 .banner {
     min-height: 390px;
 }
-.about h6, .services h6, .footer h6, .insurance h6, .ourteam h6, .gallery h6 {
+.about h6, .services h6, .footer h6, .news h6, .ourteam h6, .gallery h6 {
     font-size: 2em;
     margin: 0 0 0.5em;
 }
@@ -1259,16 +1259,16 @@ i.te:hover {
 .glyphicon {
     line-height: 1.3;
 }
-.insurance h3 {
+.news h3 {
     font-size: 1.5em;
 }
-.insurance-left {
+.news-left {
     padding: 0;
 }
-.insurance h4 {
+.news h4 {
     font-size: 1.3em;
 }
-.insurance-right {
+.news-right {
     padding: 0;
 }
 .gallery {
