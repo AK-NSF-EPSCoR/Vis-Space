@@ -117,28 +117,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	<!-- footer -->
 	<div class="footer" id="contact">
-		<div class="container">
-		<h6>Contact</h6>
-			<div class="co-ntact">
-				  <form >
-					<div class="to">
-                     	<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-					 	<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
-					 	<input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
-					</div>
-					<div class="text">
-	                   <textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
-	                   <div class="form-submit">
-			           <input type="submit" id="submit" value="Submit"><br>
-			           </div>
-	                </div>
-	                <div class="clearfix"></div>
-                   </form>
-			</div>
-			<div class="copyright">
-			   <p>© 2016 Decision Theater North. All rights reserved.</p>
-			</div>
-		</div>
+	{% include contact.html %}
 	</div>
 
 	<!-- footer -->
