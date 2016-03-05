@@ -5,3 +5,6 @@ collections:
   presentations:
     output: true
     layout: default
+  news:
+    output: true
+    layout: default
