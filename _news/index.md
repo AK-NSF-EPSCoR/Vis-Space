@@ -6,6 +6,7 @@ layout: default
 <br />
 <h3> DTN in the news </h3>
 <br />
+
 {% for post in site.news %}
 <p>
 
