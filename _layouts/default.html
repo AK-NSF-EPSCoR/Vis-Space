@@ -1,63 +1,114 @@
-<!DOCTYPE html>
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+Purchased for use without attribution by dtn.alaska.edu
+but we're keeping attribution because W3layouts did a fine job
+-->
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+<head>
+<title>Decision Theater North</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Decision, Arctic, Alaska, University of Alaska, University of Alaska Fairbanks, NSF, EPSCoR, Decision Making, Data Visualization, Science" />
+<script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="/css/style.css" rel='stylesheet' type='text/css' />
+<link href="/css/site.css" rel='stylesheet' type='text/css' />
+<script src="/js/jquery-1.11.1.min.js"></script>
+<!--webfonts-->
+<link href='//fonts.googleapis.com/css?family=Antic' rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700|Six+Caps' rel='stylesheet' type='text/css' />
+   <!--//webfonts-->
+   <link rel="stylesheet" href="/css/flexslider.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/js/bootstrap.js"></script>
+<!--light-box-files -->
+<script src="/js/modernizr.custom.97074.js"></script>
+<script src="/js/jquery.chocolat.js"></script>
+		<link rel="stylesheet" href="/css/chocolat.css" type="text/css" media="screen" charset="utf-8">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+		<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('.g-left a').Chocolat();
+		});
+		</script>
+<!--light-box-files -->
+<script type="text/javascript" src="/js/move-top.js"></script>
+       <script type="text/javascript" src="/js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
 
-    <title>Decision-theater-north by AK-NSF-EPSCoR</title>
-  </head>
+</head>
+<body>
+ <!-- header -->
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>Decision-theater-north</h1>
-        <h2></h2>
-        <a href="https://github.com/AK-NSF-EPSCoR/decision-theater-north" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
+	 <!-- header-bottom -->
+	<div class="header-bottom">
+		<div class="container">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!--/.navbar-header-->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+					 <li><a href="/index.html">Home</a></li>
+						<li><a href="/#about" class="scroll">About</a></li>
+						<li><a href="/#projects" class="scroll">Projects</a></li>
+						<li><a href="/#news" class="scroll">News</a></li>
+						<li><a href="/#contact" class="scroll">Contact</a></li>
+					</ul>
+				</div>
+				<!--/.navbar-collapse-->
+			</nav>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-   {{ content }} 
-        </section>
+		</div>
+	</div>
+	<!-- /header-bottom -->
 
-        <aside id="sidebar">
-          <a href="https://github.com/AK-NSF-EPSCoR/decision-theater-north/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/AK-NSF-EPSCoR/decision-theater-north/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+<!-- header -->
+<div class="container">
 
-          <p class="repo-owner"><a href="https://github.com/AK-NSF-EPSCoR/decision-theater-north"></a> is maintained by <a href="https://github.com/AK-NSF-EPSCoR">AK-NSF-EPSCoR</a>.</p>
+{{ content }}
 
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
-    </div>
+</div>
 
-            <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-66332117-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+	<!-- footer -->
+	<div class="footer" id="contact">
+	{% include contact.html %}
+	</div>
 
-  </body>
+	<!-- footer -->
+	<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 0;"></span> <span id="toTopHover" style="opacity: 0;"> </span></a>
+
+  {% include google_analytics.html %}
+
+</body>
 </html>

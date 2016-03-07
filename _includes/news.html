@@ -1,28 +1,36 @@
 <div class="news" id="news">
   <div class="container">
-    <h6>DTN News</h6>
+
     <div class="col-md-8 news-left">
-      <h3>DTN in the news</h3>
-      <h4>super words</h4>
-      <p> optional words</p>
+
+    <h3>DTN in the news</h3>
       <div class="insu">
-      <ul>
-          <li><a href="#"><span></span>News paper </a></li>
-          <li><a href="#"><span></span>EPSCoR newsletter link</a></li>
-          <li><a href="#"><span></span>(asu notice or site?)</a></li>
-        </ul>
+      
+      <ul class="well lead list-unstyled">
+      {% for post in site.news %}
+        <li>
+          <a href="{{ post.url }}"><span></span>{{ post.title}}</a>
+        </li>
+      {% endfor %}
+      </ul>
+
       </div>
     </div>
+
     <div class="col-md-4 news-right">
-      <h3>Announcements</h3>
-      <img src="images/3.jpg" class="img-responsive" alt="">
-      <h4>Arctic Science Summit Week</h4>
-      <p> Three tours of DTN for the ASSW </p>
 
+    <h3>Announcements</h3>
 
+    <img src="images/3.jpg" class="img-responsive" alt="">
 
+    {% for post in site.annoucements %}
+      <h4> {{ post.title }}<h4>
+      <p>  {{ post.subject }} </p>
+    {% endfor %}
 
     </div>
+
+
     <div class="clearfix"></div>
   </div>
 </div>
