@@ -1,3 +1,3 @@
-# decision-theater-north
+# Decision Theater North Website & Wiki
 
-## [Website in gh-pages branch](https://github.com/AK-NSF-EPSCoR/decision-theater-north/tree/gh-pages)
+### [Website](http://www.dtn.alaska.edu/) ([Source Code](https://github.com/AK-NSF-EPSCoR/decision-theater-north/tree/gh-pages)) - [Wiki](https://github.com/AK-NSF-EPSCoR/decision-theater-north/wiki)
