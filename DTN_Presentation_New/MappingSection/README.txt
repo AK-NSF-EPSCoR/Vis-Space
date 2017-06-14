@@ -1,0 +1,1 @@
+A folder for mapping and geo-spatial related materials for the new presentation. QGIS, Google Earth, Mapathons etc. 
