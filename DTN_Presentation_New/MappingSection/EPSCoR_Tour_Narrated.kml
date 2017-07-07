@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+  xmlns:gx="http://www.google.com/kml/ext/2.2">
+
+<Document>
+  <name>AK_EPSCoR_Tour</name>
+  <open>1</open>
+
+  <gx:Tour>
+    <name>Three_Test_Cases</name>
+    <gx:Playlist>
+
+        <gx:SoundCue><href>https://github.com/AK-NSF-EPSCoR/decision-theater-north/raw/master/DTN_Presentation_New/MappingSection/dead%20air.wav</href></gx:SoundCue>
+
+        <gx:FlyTo>
+        <gx:duration>1.5</gx:duration>
+        <gx:flyToMode>smooth</gx:flyToMode>
+        <Camera>
+          <longitude>-149.79</longitude>
+          <latitude>62.12</latitude>
+          <altitude>50000000</altitude>
+          <altitudeMode>absolute</altitudeMode>
+          <heading>0</heading>
+          <tilt>0</tilt>
+        </Camera>
+      </gx:FlyTo>
+
+      <gx:SoundCue><href>https://github.com/AK-NSF-EPSCoR/decision-theater-north/raw/master/DTN_Presentation_New/MappingSection/Intro_Slow.wav</href></gx:SoundCue>
+
+      <gx:FlyTo>
+      <gx:duration>3.5</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <Camera>
+        <longitude>-149.79</longitude>
+        <latitude>62.12</latitude>
+        <altitude>25000000</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <heading>0</heading>
+        <tilt>0</tilt>
+      </Camera>
+    </gx:FlyTo>
+
+    <!-- Fly to South East -->
+    <gx:Wait>
+        <gx:duration>1</gx:duration>
+    </gx:Wait>
+
+      <gx:SoundCue><href>https://github.com/AK-NSF-EPSCoR/decision-theater-north/raw/master/DTN_Presentation_New/MappingSection/SE_Slow.wav</href></gx:SoundCue>
+
+    <gx:FlyTo>
+      <gx:duration>3.5</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>1000000</range>
+        <heading>0</heading>
+        <tilt>0</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:Wait>
+        <gx:duration>0.1</gx:duration>
+    </gx:Wait>
+
+    <gx:FlyTo>
+      <gx:duration>2</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>500000</range>
+        <heading>0</heading>
+        <tilt>0</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:Wait>
+        <gx:duration>0.1</gx:duration>
+    </gx:Wait>
+
+    <gx:FlyTo>
+      <gx:duration>3</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>200000</range>
+        <heading>0</heading>
+        <tilt>0</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:Wait>
+        <gx:duration>0.1</gx:duration>
+    </gx:Wait>
+
+    <!-- Tilt -->
+
+    <gx:FlyTo>
+      <gx:duration>3</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>200000</range>
+        <heading>0</heading>
+        <tilt>65</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <!-- Slow Rotating Pan and Zoom -->
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>195000</range>
+        <heading>355</heading>
+        <tilt>66</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>190000</range>
+        <heading>350</heading>
+        <tilt>67</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>185000</range>
+        <heading>345</heading>
+        <tilt>68</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>180000</range>
+        <heading>340</heading>
+        <tilt>69</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>175000</range>
+        <heading>335</heading>
+        <tilt>70</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>170000</range>
+        <heading>330</heading>
+        <tilt>71</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>165000</range>
+        <heading>325</heading>
+        <tilt>72</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>160000</range>
+        <heading>320</heading>
+        <tilt>73</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>155000</range>
+        <heading>315</heading>
+        <tilt>74</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>150000</range>
+        <heading>310</heading>
+        <tilt>75</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>145000</range>
+        <heading>305</heading>
+        <tilt>76</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>140000</range>
+        <heading>300</heading>
+        <tilt>77</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>135000</range>
+        <heading>295</heading>
+        <tilt>78</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>130000</range>
+        <heading>290</heading>
+        <tilt>79</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <!-- Zoom out and fly to Kenai -->
+
+    <gx:FlyTo>
+      <gx:duration>5</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-134.952066</longitude>
+        <latitude>58.770823</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>750000</range>
+        <heading>290</heading>
+        <tilt>79</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <!-- South-Central Audiofile -->
+
+    <gx:SoundCue><href>https://github.com/AK-NSF-EPSCoR/decision-theater-north/raw/master/DTN_Presentation_New/MappingSection/SC_Slow.wav</href></gx:SoundCue>
+
+    <gx:FlyTo>
+      <gx:duration>5</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-149.574287</longitude>
+        <latitude>60.326415</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>1000000</range>
+        <heading>290</heading>
+        <tilt>60</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <!-- Zoom in on Kenai and do a slow flyover -->
+
+
+            <gx:Wait>
+                <gx:duration>0.1</gx:duration>
+            </gx:Wait>
+
+    <gx:FlyTo>
+      <gx:duration>5</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-149.574287</longitude>
+        <latitude>60.326415</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>500000</range>
+        <heading>290</heading>
+        <tilt>60</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:Wait>
+        <gx:duration>0</gx:duration>
+    </gx:Wait>
+
+    <gx:FlyTo>
+      <gx:duration>4</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-150.128317</longitude>
+        <latitude>60.385390</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>50000</range>
+        <heading>290</heading>
+        <tilt>65</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:Wait>
+        <gx:duration>0</gx:duration>
+    </gx:Wait>
+
+    <gx:FlyTo>
+      <gx:duration>3.5</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-150.128317</longitude>
+        <latitude>60.385390</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>45000</range>
+        <heading>300</heading>
+        <tilt>75</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>11.5</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-151.259515</longitude>
+        <latitude>60.547450</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>80000</range>
+        <heading>360</heading>
+        <tilt>70</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:Wait>
+        <gx:duration>0</gx:duration>
+    </gx:Wait>
+
+    <!-- Zoom Out over Kenai -->
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-151.259515</longitude>
+        <latitude>60.547450</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>210000</range>
+        <heading>360</heading>
+        <tilt>70</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-151.259515</longitude>
+        <latitude>60.547450</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>340000</range>
+        <heading>360</heading>
+        <tilt>65</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-151.259515</longitude>
+        <latitude>60.547450</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>470000</range>
+        <heading>360</heading>
+        <tilt>50</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-151.259515</longitude>
+        <latitude>60.547450</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>600000</range>
+        <heading>360</heading>
+        <tilt>40</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-151.259515</longitude>
+        <latitude>60.547450</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>730000</range>
+        <heading>360</heading>
+        <tilt>30</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-151.259515</longitude>
+        <latitude>60.547450</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>840000</range>
+        <heading>360</heading>
+        <tilt>20</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+
+
+    <!-- Northern Audiofile -->
+
+    <gx:SoundCue><href>https://github.com/AK-NSF-EPSCoR/decision-theater-north/raw/master/DTN_Presentation_New/MappingSection/N_Slow.wav</href></gx:SoundCue>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-151.259515</longitude>
+        <latitude>60.547450</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>970000</range>
+        <heading>360</heading>
+        <tilt>10</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:Wait>
+        <gx:duration>0.01</gx:duration>
+    </gx:Wait>
+<!--
+    <gx:FlyTo>
+      <gx:duration>1.5</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-151.259515</longitude>
+        <latitude>60.547450</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>750000</range>
+        <heading>360</heading>
+        <tilt>40</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:Wait>
+        <gx:duration>0.1</gx:duration>
+    </gx:Wait>
+-->
+    <!-- Fly to Nuiqsut -->
+
+
+    <gx:FlyTo>
+      <gx:duration>2</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-151.259515</longitude>
+        <latitude>60.947450</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>400000</range>
+        <heading>360</heading>
+        <tilt>15</tilt>
+      </LookAt>
+
+    </gx:FlyTo><gx:FlyTo>
+      <gx:duration>2</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-151.259515</longitude>
+        <latitude>61.547450</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>325000</range>
+        <heading>360</heading>
+        <tilt>70</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:FlyTo>
+      <gx:duration>2</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-151.259515</longitude>
+        <latitude>62.047450</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>250000</range>
+        <heading>360</heading>
+        <tilt>85</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+
+    <gx:FlyTo>
+      <gx:duration>7.5</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-151.025864</longitude>
+        <latitude>70.216708</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>250000</range>
+        <heading>360</heading>
+        <tilt>85</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+    <gx:Wait>
+        <gx:duration>0.1</gx:duration>
+    </gx:Wait>
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-151.025864</longitude>
+        <latitude>70.216708</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>260000</range>
+        <heading>360</heading>
+        <tilt>75</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+
+
+    <gx:FlyTo>
+      <gx:duration>1</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <longitude>-151.025864</longitude>
+        <latitude>70.216708</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>absolute</altitudeMode>
+        <range>270000</range>
+        <heading>360</heading>
+        <tilt>70</tilt>
+      </LookAt>
+    </gx:FlyTo>
+
+
+
+        <gx:FlyTo>
+          <gx:duration>1.5</gx:duration>
+          <gx:flyToMode>smooth</gx:flyToMode>
+          <LookAt>
+            <longitude>-151.025864</longitude>
+            <latitude>70.216708</latitude>
+            <altitude>0</altitude>
+            <altitudeMode>absolute</altitudeMode>
+            <range>285000</range>
+            <heading>360</heading>
+            <tilt>35</tilt>
+          </LookAt>
+        </gx:FlyTo>
+
+
+
+        <gx:FlyTo>
+          <gx:duration>1.5</gx:duration>
+          <gx:flyToMode>smooth</gx:flyToMode>
+          <LookAt>
+            <longitude>-151.025864</longitude>
+            <latitude>70.216708</latitude>
+            <altitude>0</altitude>
+            <altitudeMode>absolute</altitudeMode>
+            <range>300000</range>
+            <heading>360</heading>
+            <tilt>0</tilt>
+          </LookAt>
+        </gx:FlyTo>
+
+        <!-- Rotate around Nuiqsut -->
+
+        <gx:Wait>
+            <gx:duration>0.1</gx:duration>
+        </gx:Wait>
+
+        <gx:FlyTo>
+          <gx:duration>1.5</gx:duration>
+          <gx:flyToMode>smooth</gx:flyToMode>
+          <Camera>
+            <longitude>-151.025864</longitude>
+            <latitude>70.216708</latitude>
+            <altitude>300000</altitude>
+            <altitudeMode>absolute</altitudeMode>
+            <heading>342</heading>
+            <tilt>0</tilt>
+          </Camera>
+        </gx:FlyTo>
+
+        <gx:FlyTo>
+          <gx:duration>3.5</gx:duration>
+          <gx:flyToMode>smooth</gx:flyToMode>
+          <Camera>
+            <longitude>-151.025864</longitude>
+            <latitude>70.216708</latitude>
+            <altitude>250000</altitude>
+            <altitudeMode>absolute</altitudeMode>
+            <heading>280</heading>
+            <tilt>0</tilt>
+          </Camera>
+        </gx:FlyTo>
+
+        <gx:FlyTo>
+          <gx:duration>4.5</gx:duration>
+          <gx:flyToMode>smooth</gx:flyToMode>
+          <Camera>
+            <longitude>-151.025864</longitude>
+            <latitude>70.216708</latitude>
+            <altitude>50000</altitude>
+            <altitudeMode>absolute</altitudeMode>
+            <heading>190</heading>
+            <tilt>0</tilt>
+          </Camera>
+        </gx:FlyTo>
+
+        <gx:FlyTo>
+          <gx:duration>2.5</gx:duration>
+          <gx:flyToMode>smooth</gx:flyToMode>
+          <Camera>
+            <longitude>-151.025864</longitude>
+            <latitude>70.216708</latitude>
+            <altitude>50000</altitude>
+            <altitudeMode>absolute</altitudeMode>
+            <heading>180</heading>
+            <tilt>0</tilt>
+          </Camera>
+        </gx:FlyTo>
+
+
+        <gx:Wait>
+            <gx:duration>0.1</gx:duration>
+        </gx:Wait>
+        <!-- Final Zoom Out -->
+
+        <gx:SoundCue><href>https://github.com/AK-NSF-EPSCoR/decision-theater-north/raw/master/DTN_Presentation_New/MappingSection/outro_slow.wav</href></gx:SoundCue>
+
+        <gx:FlyTo>
+          <gx:duration>3.5</gx:duration>
+          <gx:flyToMode>smooth</gx:flyToMode>
+          <Camera>
+            <longitude>-151.025864</longitude>
+            <latitude>70.216708</latitude>
+            <altitude>1000000</altitude>
+            <altitudeMode>absolute</altitudeMode>
+            <heading>180</heading>
+            <tilt>0</tilt>
+          </Camera>
+        </gx:FlyTo>
+
+        <gx:FlyTo>
+          <gx:duration>8.5</gx:duration>
+          <gx:flyToMode>smooth</gx:flyToMode>
+          <Camera>
+            <longitude>173.038864</longitude>
+            <latitude>79.596708</latitude>
+            <altitude>50000000</altitude>
+            <altitudeMode>absolute</altitudeMode>
+            <heading>180</heading>
+            <tilt>0</tilt>
+          </Camera>
+        </gx:FlyTo>
+
+        <gx:Wait>
+            <gx:duration>5</gx:duration>
+        </gx:Wait>
+
+      </gx:Playlist>
+    </gx:Tour>
+  </Document>
+  </kml>
