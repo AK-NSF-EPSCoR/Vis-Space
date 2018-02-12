@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+  xmlns:gx="http://www.google.com/kml/ext/2.2">
+
+<Document>
+  <name>Mayor'sMeeting</name>
+  <open>1</open>
+
+  <gx:Tour>
+    <name>NorthPole_FBX_FNSB</name>
+    <gx:Playlist>
+
+<!-- Start over AK and Zoom to North Pole-->
+
+      <gx:SoundCue><href>BecomeOceanClip.wav</href></gx:SoundCue>
+
+      <gx:FlyTo>
+        <gx:duration>2</gx:duration>
+        <gx:flyToMode>smooth</gx:flyToMode>
+        <Camera>
+          <longitude>-149.79</longitude>
+          <latitude>62.12</latitude>
+          <altitude>5000000</altitude>
+          <altitudeMode>absolute</altitudeMode>
+          <heading>0</heading>
+          <tilt>0</tilt>
+        </Camera>
+      </gx:FlyTo>
+
+      <gx:Wait>
+        <gx:duration>0.01</gx:duration>
+      </gx:Wait>
+
+      <gx:FlyTo>
+        <gx:duration>6</gx:duration>
+        <gx:flyToMode>smooth</gx:flyToMode>
+        <Camera>
+          <longitude>-147.34</longitude>
+          <latitude>64.75</latitude>
+          <altitude>50000</altitude>
+          <altitudeMode>absolute</altitudeMode>
+          <heading>0</heading>
+          <tilt>0</tilt>
+        </Camera>
+      </gx:FlyTo>
+
+      <gx:Wait>
+        <gx:duration>0.01</gx:duration>
+      </gx:Wait>
+
+      <gx:FlyTo>
+        <gx:duration>3</gx:duration>
+        <gx:flyToMode>smooth</gx:flyToMode>
+        <Camera>
+          <longitude>-147.34</longitude>
+          <latitude>64.75</latitude>
+          <altitude>25000</altitude>
+          <altitudeMode>absolute</altitudeMode>
+          <heading>0</heading>
+          <tilt>0</tilt>
+        </Camera>
+      </gx:FlyTo>
+
+      <gx:Wait>
+        <gx:duration>0.01</gx:duration>
+      </gx:Wait>
+
+<!-- Pan, tilt an zoom over NP -->
+
+      <gx:FlyTo>
+        <gx:duration>5</gx:duration>
+        <gx:flyToMode>smooth</gx:flyToMode>
+        <LookAt>
+          <longitude>-147.34</longitude>
+          <latitude>64.75</latitude>
+          <altitude>0</altitude>
+          <altitudeMode>absolute</altitudeMode>
+          <range>10000</range>
+          <heading>340</heading>
+          <tilt>30</tilt>
+        </LookAt>
+      </gx:FlyTo>
+
+      <gx:Wait>
+          <gx:duration>0.01</gx:duration>
+      </gx:Wait>
+
+      <gx:FlyTo>
+        <gx:duration>5</gx:duration>
+        <gx:flyToMode>smooth</gx:flyToMode>
+        <LookAt>
+          <longitude>-147.34</longitude>
+          <latitude>64.745</latitude>
+          <altitude>0</altitude>
+          <altitudeMode>absolute</altitudeMode>
+          <range>5500</range>
+          <heading>340</heading>
+          <tilt>75</tilt>
+        </LookAt>
+      </gx:FlyTo>
+
+      <gx:Wait>
+          <gx:duration>0.01</gx:duration>
+      </gx:Wait>
+
+    <gx:FlyTo>
+     <gx:duration>8</gx:duration>
+     <gx:flyToMode>smooth</gx:flyToMode>
+     <LookAt>
+       <longitude>-147.34</longitude>
+       <latitude>64.75</latitude>
+       <altitude>0</altitude>
+       <altitudeMode>absolute</altitudeMode>
+       <range>2500</range>
+       <heading>315</heading>
+       <tilt>70</tilt>
+     </LookAt>
+   </gx:FlyTo>
+
+    <gx:Wait>
+       <gx:duration>0.01</gx:duration>
+    </gx:Wait>
+
+<!-- Fly to FBX -->
+
+    <gx:FlyTo>
+     <gx:duration>6</gx:duration>
+     <gx:flyToMode>smooth</gx:flyToMode>
+     <LookAt>
+       <longitude>-147.718</longitude>
+       <latitude>64.837</latitude>
+       <altitude>0</altitude>
+       <altitudeMode>absolute</altitudeMode>
+       <range>8000</range>
+       <heading>300</heading>
+       <tilt>65</tilt>
+     </LookAt>
+   </gx:FlyTo>
+
+    <gx:Wait>
+      <gx:duration>0.01</gx:duration>
+    </gx:Wait>
+
+<!-- Pan, tilt and zoom to FNSB building -->
+
+    <gx:FlyTo>
+     <gx:duration>9</gx:duration>
+     <gx:flyToMode>smooth</gx:flyToMode>
+     <LookAt>
+       <longitude>-147.722</longitude>
+       <latitude>64.85</latitude>
+       <altitude>0</altitude>
+       <altitudeMode>absolute</altitudeMode>
+       <range>4000</range>
+       <heading>250</heading>
+       <tilt>70</tilt>
+     </LookAt>
+   </gx:FlyTo>
+
+    <gx:Wait>
+      <gx:duration>0.01</gx:duration>
+    </gx:Wait>
+
+    <gx:FlyTo>
+     <gx:duration>9</gx:duration>
+     <gx:flyToMode>smooth</gx:flyToMode>
+     <LookAt>
+       <longitude>-147.718</longitude>
+       <latitude>64.837</latitude>
+       <altitude>0</altitude>
+       <altitudeMode>absolute</altitudeMode>
+       <range>2000</range>
+       <heading>170</heading>
+       <tilt>75</tilt>
+     </LookAt>
+   </gx:FlyTo>
+
+    <gx:Wait>
+      <gx:duration>0.01</gx:duration>
+    </gx:Wait>
+
+    <gx:FlyTo>
+     <gx:duration>8</gx:duration>
+     <gx:flyToMode>smooth</gx:flyToMode>
+     <LookAt>
+       <longitude>-147.719</longitude>
+       <latitude>64.838</latitude>
+       <altitude>0</altitude>
+       <altitudeMode>absolute</altitudeMode>
+       <range>1350</range>
+       <heading>150</heading>
+       <tilt>81</tilt>
+     </LookAt>
+   </gx:FlyTo>
+
+    <gx:Wait>
+      <gx:duration>0.01</gx:duration>
+    </gx:Wait>
+
+    <!-- Fly from FNSB to City Hall -->
+
+    <gx:FlyTo>
+     <gx:duration>10</gx:duration>
+     <gx:flyToMode>smooth</gx:flyToMode>
+     <LookAt>
+       <longitude>-147.712</longitude>
+       <latitude>64.835</latitude>
+       <altitude>0</altitude>
+       <altitudeMode>absolute</altitudeMode>
+       <range>1350</range>
+       <heading>155</heading>
+       <tilt>75</tilt>
+     </LookAt>
+   </gx:FlyTo>
+
+    <gx:Wait>
+      <gx:duration>0.01</gx:duration>
+    </gx:Wait>
+
+    <gx:FlyTo>
+     <gx:duration>10</gx:duration>
+     <gx:flyToMode>smooth</gx:flyToMode>
+     <LookAt>
+       <longitude>-147.722</longitude>
+       <latitude>64.84</latitude>
+       <altitude>0</altitude>
+       <altitudeMode>absolute</altitudeMode>
+       <range>400</range>
+       <heading>250</heading>
+       <tilt>60</tilt>
+     </LookAt>
+   </gx:FlyTo>
+
+    <gx:Wait>
+      <gx:duration>0.01</gx:duration>
+    </gx:Wait>
+
+    <gx:FlyTo>
+     <gx:duration>8.5</gx:duration>
+     <gx:flyToMode>smooth</gx:flyToMode>
+     <LookAt>
+       <longitude>-147.72</longitude>
+       <latitude>64.84</latitude>
+       <altitude>250</altitude>
+       <altitudeMode>absolute</altitudeMode>
+       <range>300</range>
+       <heading>300</heading>
+       <tilt>75</tilt>
+     </LookAt>
+   </gx:FlyTo>
+
+    <gx:Wait>
+      <gx:duration>0.01</gx:duration>
+    </gx:Wait>
+
+<!-- Fly to UAF -->
+
+    <gx:FlyTo>
+     <gx:duration>15</gx:duration>
+     <gx:flyToMode>smooth</gx:flyToMode>
+     <LookAt>
+       <longitude>-147.843</longitude>
+       <latitude>64.857</latitude>
+       <altitude>250</altitude>
+       <altitudeMode>absolute</altitudeMode>
+       <range>300</range>
+       <heading>320</heading>
+       <tilt>75</tilt>
+     </LookAt>
+   </gx:FlyTo>
+
+    <gx:Wait>
+      <gx:duration>0.01</gx:duration>
+    </gx:Wait>
+
+    <gx:FlyTo>
+     <gx:duration>8</gx:duration>
+     <gx:flyToMode>smooth</gx:flyToMode>
+     <LookAt>
+       <longitude>-147.843</longitude>
+       <latitude>64.857</latitude>
+       <altitude>350</altitude>
+       <altitudeMode>absolute</altitudeMode>
+       <range>400</range>
+       <heading>90</heading>
+       <tilt>80</tilt>
+     </LookAt>
+   </gx:FlyTo>
+
+    <gx:Wait>
+      <gx:duration>0.01</gx:duration>
+    </gx:Wait>
+
+    <gx:FlyTo>
+     <gx:duration>8</gx:duration>
+     <gx:flyToMode>smooth</gx:flyToMode>
+     <LookAt>
+       <longitude>-147.843</longitude>
+       <latitude>64.857</latitude>
+       <altitude>350</altitude>
+       <altitudeMode>absolute</altitudeMode>
+       <range>1000</range>
+       <heading>130</heading>
+       <tilt>60</tilt>
+     </LookAt>
+   </gx:FlyTo>
+
+    <gx:Wait>
+      <gx:duration>0.01</gx:duration>
+    </gx:Wait>
+
+<!-- zoom away from UAF and over FNSB -->
+
+    <gx:FlyTo>
+     <gx:duration>8</gx:duration>
+     <gx:flyToMode>smooth</gx:flyToMode>
+     <LookAt>
+       <longitude>-147.843</longitude>
+       <latitude>64.857</latitude>
+       <altitude>350</altitude>
+       <altitudeMode>absolute</altitudeMode>
+       <range>10000</range>
+       <heading>130</heading>
+       <tilt>40</tilt>
+     </LookAt>
+   </gx:FlyTo>
+
+    <gx:Wait>
+      <gx:duration>0.01</gx:duration>
+    </gx:Wait>
+
+    <gx:FlyTo>
+     <gx:duration>10</gx:duration>
+     <gx:flyToMode>smooth</gx:flyToMode>
+     <LookAt>
+       <longitude>-147.718</longitude>
+       <latitude>64.837</latitude>
+       <altitude>350</altitude>
+       <altitudeMode>absolute</altitudeMode>
+       <range>20000</range>
+       <heading>190</heading>
+       <tilt>65</tilt>
+     </LookAt>
+   </gx:FlyTo>
+
+    <gx:Wait>
+      <gx:duration>30</gx:duration>
+    </gx:Wait>
+
+
+    </gx:Playlist>
+  </gx:Tour>\
+</Document>
+</kml>
