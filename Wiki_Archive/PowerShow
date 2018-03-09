@@ -1,0 +1,64 @@
+## Stretching PowerPoint over 7 screens using PowerShow
+
+### There are two ways to create presentations spanning seven screens:
+
+#### 1. One method to design presentations for the DTN is to create seven separate PowerPoint files, one for each screen
+* You need to elect a presentation as the Master presentation and other presentations as Followers of the master presentation.
+* To setup the Master-Follower relationship, use the following steps:
+    * Open your presentations in Microsoft PowerPoint.
+    * Select Slide Show | Prepare Sync Show item.
+    * Select the master presentation from the drop down box.
+    * In the second list box, select the follower slide shows that should be         synchronized with the master slide show.
+    * Click OK.
+    * Save the master and follower presentations.
+    * This would create a Synchronous Show group with the selected master and the follower slide shows forming the group. The follower slide shows should be setup to advance manually under PowerShow control.
+    * You can repeat steps 1 to 4 for creating other groups. A presentation can be part of only one Synchronous Show group.
+* When you are done creating the Synchronous Show groups, you can:
+    * Start the PowerShow session as you would do normally through **Slide Show | Power Show** item. PowerShow will     recognize these groups and would keep the slide shows in sync with each other.
+* The PowerShow Session Settings dialog box shows 7 rows for the number of monitors,    with primary monitor as the first one.
+* Assign each of your PowerPoint slides to one of the monitors in your desired order
+* At this point, you can save you PowerShow configuration as a .pss file to launch later with a simple double-click by selecting “Save Settings”
+* Press “Launch Presentation” to launch your synchronized PowerShow 
+
+#### 2. The other method is to create a long and skinny slide for all seven screens within one file
+* When designing a new presentation:
+    * Go to the “Design” Tab > Click “Slide Size” > “Custom Slide Size” > **Set Width to 56 inches and Height to 4.5 inches**
+    * This will resize the presentation slides into one long skinny slide that can be stretched across all 7 screens
+    * You can insert lines 8 inches apart as guide to where the screens are
+    * Use this slide as a template for your presentation
+* To launch this presentation across all 7 screens, you need to use PowerShow
+    * In PowerPoint with your presentation open go to “Slide Show” 
+    * Click “Power Show”
+    * In the first roll-down menu choose [name_of_your_presentation] <Slides> 
+    * To the right of the menu increase the number to “7” to stretch across all 7 screens 
+    * "Launch Presentation"
+
+
+### Pros and Cons of each approach
+
+#### Creating seven separate files
+* PROS:
+    * Easier to work with regular sized slides, especially if creating the presentation on a computer with one or two screens and no in DTN
+    * Easier to make edits and changes to individual slides and move content around
+    * Possible to display presentation on only certain screens, skip screens and display other content on different screens
+    * Easier to copy-paste and manipulate content between presentations to scale correctly
+    * Individual files can be re-purposed for other uses
+* CONS:
+    * No animated transitions. PowerShow can't handle animated transitions and interactive element across multiple files
+    * Synchronizations issues. In some cases, the master presentation file will go out of sync with the followers and PowerShow is not able to launch the presentation in a synchronized way. In this case, it needs to be rebuilt with PowerShow.
+    * Storyboarding and keeping track of content in seven separate files can be more difficult
+
+#### One file with a custom-sized slide
+* PROS:
+    * Possible to build in animated transitions and interactive content such as navigation buttons
+    * Easier to keep track of content and how the presentation will look in its final form
+    * No synchronization issues 
+    * Simpler to launch, no need to keep track of seven files
+* CONS:
+    * More difficult to work with on a different computer on a single screen
+    * More difficult to move content around, all seven slides need to be edited. If content needs to be repeated on some slides, all seven screens need to be duplicated
+    * Impossible to skip screens in the middle for an asymmetrical presentation with other content in the middle
+    * The file is DTN specific. Difficult to re-purpose presentation for a different context and setting
+   
+
+
